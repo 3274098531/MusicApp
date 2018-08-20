@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>Title</title>
+    <script src="js/jquery-2.1.1.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/music.css">
+
+</head>
+<body>
+<div class="top" id="top">
+
+    
+        <div class="nvm clearFloat">
+            <div class="nvm-left">
+                <a href="index.html">
+                    <i class="fa fa-reply back" aria-hidden="true"></i> </a>
+                <span>我的歌单</span>
+            </div>
+            <div class="nvm-right">
+
+                <span id="show-playing" class="show-playing"><i class="fa fa-list" aria-hidden="true"></i>
+        </span>
+            </div>
+
+
+            </div>
+
+
+    <div class="mid clearFloat">
+        <div class="mid-left">
+            <div class="love-box">
+                <div class="love">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="mid-right">
+            <p>我喜欢的音乐</p>
+            <div class="photo-name clearFloat">
+                <div class="photo"><img src="img/yunyanchengyu.jpg" alt=""></div>
+                <div class="name">
+                    <a href="#">GEEK</a>
+                    <i class="fa fa-caret-right" aria-hidden="true"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-list">
+        <div class="menu">
+            <i id="randplay" class="fa fa-random" aria-hidden="true"></i>
+            <p>随机播放</p>
+        </div>
+        <div class="menu">
+            <i class="fa fa-share-alt" aria-hidden="true"></i>
+            <p>分享</p>
+        </div>
+        <a id="music_down">
+        <div id="download" class="menu">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <p>下载</p>
+        </div>
+
+        </a>
+    </div>
+</div>
+<div id="music-list" class="music-list">
+    <!--<div class="music">-->
+        <!--<p   class="music-name">任然-空空如也</p>-->
+        <!--<p   class="music-index">1</p>-->
+        <!--<p   class="music-auth">任然</p>-->
+    <!--</div>-->
+</div>
+
+<div id="playing" class="playing">
+    <div class="title">
+        <a  id="hide-playing" >
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+
+        </a>
+           <marquee   class="playing-music-name" id="playing-music-name" >Olly Murs-That Girl</marquee>
+    </div>
+   <div class="playing-photo">
+       <img src="img/thatgirl.JPG" alt="">
+   </div>
+   <div class="lrc" id="lrc">
+   歌词正在加载。。
+   </div>
+</div>
+<div class="bottom" id="bottom">
+    <audio id="audio" src="music/Olly Murs-That Girl.mp3">
+        <source>
+    </audio>
+    <div class="progress">
+        <div class="displaycontent clearFloat">
+            <div class="play-progress-left">
+                <span id="current-music-name" class="current-music-name">Olly Murs-That Girl</span>
+            </div>
+            <div   class="play-progress-right">
+                <span id="current-music-time" class="current-music-time"></span>
+            </div>
+        </div>
+        <div id="play-progress-box" class="play-progress-box">
+            <div id="play-progress" class="play-progress"></div>
+            <div id="play-progress-point" class="play-progress-point"></div>
+        </div>
+    </div>
+
+  
+
+    <div class="music-controls clearFloat">
+        <div class="music-control-img" id="music-control-img"><img src="img/thatgirl.jpg" alt=""></div>
+        <div class="music-control">
+            <span id="music-backward">
+                <i class="fa fa-fast-backward" aria-hidden="true"></i>
+            </span>
+            <span id="music-play-btn" class="music-play-btn">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            </span>
+            <span id="music-forward"><i class="fa fa-fast-forward" aria-hidden="true"></i> </span>
+
+        </div>
+        <div class="music-control-volume clearFloat">
+            <div class="music-control-volume-photo">
+                <i class="fa fa-volume-off" aria-hidden="true"></i>
+            </div>
+
+            <div id="music-control-volume-box" class="music-control-volume-box">
+
+                <div id="music-control-volume-progress" class="music-control-volume-progress"></div>
+                <div id="music-control-volume-progress-point" class="music-control-volume-progress-point"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="js/music.js"></script>
+</body>
+</html>

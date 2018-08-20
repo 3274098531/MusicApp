@@ -1,0 +1,151 @@
+*{
+margin: 0;
+    padding: 0;
+}
+.content{
+    width: 100%;
+     position: relative;
+    background-image: linear-gradient(45deg, #2f0923, #ff9b8e);
+}
+.clearFloat:after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearFloat{
+    zoom: 1;
+}
+.nav-left{
+    color:white;
+    width: 65%;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    font-size: 5vw;
+    float: left;
+}
+.nav-left img{
+    width: 3vw;
+    height:3vw;
+}
+.nav-right{
+    padding-top: 3vw;
+    width:30%;
+
+    float: left;
+    font-size: 8vw;
+    color: white;
+}
+.nav-right img{
+    width: 8vw;
+    height:8vw;
+}
+.nav-right img:nth-child(2){
+    margin-left: 6vw;
+}
+.photo-box {
+    width: 30vw;
+    margin: 2vw auto;
+}
+.zan{
+    position: absolute;
+    top:25vw;
+    left: 80%;
+
+    color: white;
+}
+.zan img{
+    height: 10vw;
+    width: 10vw;
+}
+.photo-box .name{
+    font-size: 5vw;
+    font-weight: 600;
+}
+.photo-box .name span{
+    font-size: 4vw;
+    color: #4a575f;
+    font-weight: normal;
+}
+.photo-box .title {
+    font-size: 4vw;
+    text-align: center;
+    color: #4a575f;
+}
+.photo-box .photo img{
+    width: 25vw;
+    height: 25vw;
+}
+.menu{
+    margin-top: 6vw;
+}
+.menu div{
+    height: 10vw;
+    margin-left: 8vw;
+    margin-bottom: 3vw;
+    width: 40%;
+    font-weight: 500;
+    font-size: 5vw;
+    float: left;
+}
+.menu div img{
+    margin-right: 3vw;
+    width: 6vw;
+    height: 6vw;
+}
+ .trends-box{
+     margin-top: 3vw;
+ }
+.trends-box div{
+    float: left;
+    width: 30%;
+   margin-left: 3vw;
+}
+.trend-title-box{
+    width: 70vw;
+    margin: 0 auto;
+}
+.trend-title-box div:nth-child(1){
+    width: 20vw;
+    float: left;
+
+}
+.trend-title-box div:nth-child(2){
+    margin-top:-2vw;
+
+   margin-left: 5vw;
+    margin-right: 5vw;
+    float: left;
+}
+.trend-title-box div:nth-child(3){
+   width: 20vw;
+    float: left;
+}
+.trend-title-box .laven{
+    height: 0.4vw;
+
+    background-color: black;
+}
+.trends-box div img{
+    width: 25vw;
+    height: 30vw;
+}
+.foot{
+    height: 18vw;
+   margin-top: 4vw;
+
+    background-color: #9e9fa0;
+}
+.foot div{
+    float: left;
+    width: 33%;
+   text-align: center; padding-bottom: 1.5vw;
+}
+.foot div img{
+    margin-top: 1.5vw;
+    width: 8vw;
+    height: 8vw;
+
+}
+

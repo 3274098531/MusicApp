@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearFloat:after {
+    content: '';
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.clearFloat {
+    zoom: 1;
+}
+
+.top {
+    background: url("../img/qingtian.jpg") no-repeat;
+    width: 100%;
+    position: relative;
+
+    height: 50vh;
+    background-size: 100%;
+    background-position-x: center;
+}
+
+.music-box {
+    cursor: pointer;
+    width: 50vw;
+ text-align: center;
+    height: 25vw;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 25vw;
+    border-top-right-radius: 25vw;
+}
+
+.music-box span {
+    color: #9e9fa0;
+    font-size: 100px;
+    line-height: 25vw;
+
+}
+
+.content {
+    height: 50vh;
+    width: 100%;
+
+}
+
+.content .title {
+    width: 100%;
+
+
+}
+
+.content .title .name{
+    margin-left: 2vw;
+    margin-top: 2vh;
+    border-radius: 2vw;
+    font-size: 15vw;
+    color: #706c6c;
+    text-align: center;
+    line-height: 21.3vw;
+    width: 21.3vw; height: 21.3vw;  background: #c4bfbf;float: left;
+}
+.content .title .desc {
+    padding-left: 5vw;
+    margin-top: 2vh;
+    height: 25vw;
+    width: 65%;
+
+    margin-left: 1vw;
+    float: left;
+}
+.content .title .desc .desc-name{
+    font-size: 8vw;
+    color: #706c6c;
+    font-weight: 600;
+}
+.content .title .desc .remark{
+    font-size: 5vw;
+    color: #adaaaa;
+}
+.content .title .desc .address{
+    font-size: 5vw;
+    margin-top: 2vw;
+    color: #adaaaa;
+}
+.left,.right{
+    float: left;
+}
+.num{ margin-bottom: 3vw;
+    width: 60%;
+    margin-left: 2vw;
+    height: 10.7vw;
+    line-height: 10.7vw;
+    color: #727272;
+    font-size:5vw;
+}
+.phone{
+    margin-top: 2vh;
+}
+.phone-btn{
+    margin-left: 6vw;
+    height: 10.7vw;
+    width: 30vw;
+    cursor: pointer;
+    font-size: 6vw;
+    line-height: 10.7vw;
+    text-align: center;
+    border-radius: 2vw;
+    background-color: #556fb5;
+    color: white;
+}
+.foot { 
+    position:absolute;
+    bottom: 0;
+    line-height: 15vh;
+    height: 12vh;
+    width:100%;
+}
+.foot span:nth-child(1){
+    margin-left: 2vw;
+}
+.foot i{
+    font-size: 12vw;
+}
+.red{
+    color:red;
+}
+.spay{
+color: #dedede;
+}
+.foot .heart{
+    color: red;
+    margin-left: 20vw;
+}
